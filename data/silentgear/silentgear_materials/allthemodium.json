@@ -1,0 +1,131 @@
+{
+  "type": "silentgear:standard",
+  "simple": true,
+  "availability": {
+    "tier": 5,
+    "categories": [
+      "metal"
+    ],
+    "visible": true,
+    "gear_blacklist": [],
+    "can_salvage": true
+  },
+  "crafting_items": {
+    "main": {
+      "tag": "forge:ingots/allthemodium"
+    }
+  },
+  "name": {
+    "translate": "material.silentgear.allthemodium"
+  },
+  "stats": {
+    "main": {
+      "durability": 3847.0,
+      "armor_durability": 83.0,
+      "enchantment_value": 40.0,
+      "rarity": 115.0,
+      "charging_value": 1.5,
+      "repair_value": 0.75,
+      "harvest_level": 7.0,
+      "harvest_speed": 32.0,
+      "melee_damage": 12.0,
+      "magic_damage": 11.0,
+      "attack_speed": 0.0,
+      "ranged_damage": 4.0,
+      "ranged_speed": 0.0,
+      "projectile_speed": 2.0,
+      "projectile_accuracy": 2.0,
+      "armor": 31.0,
+      "armor/helmet": 6.0,
+      "armor/chestplate": 10.0,
+      "armor/leggings": 9.0,
+      "armor/boots": 6.0,
+      "armor_toughness": 13.0,
+      "magic_armor": 30.0
+    },
+    "rod": {
+      "harvest_speed": {
+        "mul2": 0.1
+      },
+      "projectile_speed": {
+        "mul2": 1.5
+      }
+    },
+    "tip": {
+      "durability": {
+        "add": 501.0
+      },
+      "armor_durability": {
+        "add": 15.0
+      },
+      "harvest_speed": {
+        "add": 4.0
+      }
+    }
+  },
+  "traits": {
+    "main": [
+      {
+        "name": "silentgear:cure_poison",
+        "level": 1,
+        "conditions": [
+          {
+            "type": "silentgear:gear_type",
+            "gear_type": "armor"
+          }
+        ]
+      },
+      {
+        "name": "silentgear:greedy",
+        "level": 3,
+        "conditions": [
+          {
+            "type": "silentgear:gear_type",
+            "gear_type": "harvest_tool"
+          }
+        ]
+      },
+      {
+        "name": "silentgear:indestructible",
+        "level": 1,
+        "conditions": [
+          {
+            "type": "silentgear:gear_type",
+            "gear_type": "tool"
+          }
+        ]
+      },
+      {
+        "name": "silentgear:lustrous",
+        "level": 3,
+        "conditions": [
+          {
+            "type": "silentgear:gear_type",
+            "gear_type": "harvest_tool"
+          }
+        ]
+      }
+    ],
+
+    "rod": [
+      {
+        "name": "silentgear:indestructible",
+        "level": 1
+      },
+      {
+        "name": "silentgear:lustrous",
+        "level": 3
+      }
+    ],
+    "tip": [
+      {
+        "name": "silentgear:hard",
+        "level": 5
+      },
+      {
+        "name": "silentgear:malleable",
+        "level": 5
+      }
+    ]
+  }
+}

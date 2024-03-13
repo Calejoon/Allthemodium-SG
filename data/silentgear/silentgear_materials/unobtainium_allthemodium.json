@@ -1,0 +1,154 @@
+{
+  "type": "silentgear:standard",
+  "simple": true,
+  "availability": {
+    "tier": 7,
+    "categories": [
+      "metal"
+    ],
+    "visible": true,
+    "gear_blacklist": [],
+    "can_salvage": true
+  },
+  "crafting_items": {
+    "main": {
+      "tag": "forge:ingots/unobtainium_allthemodium_alloy"
+    }
+  },
+  "name": {
+    "translate": "Unobtainium Allthemodium"
+  },
+  "stats": {
+    "main": {
+      "durability": 4925.0,
+      "armor_durability": 96.0,
+      "enchantment_value": 55.0,
+      "rarity": 128.0,
+      "charging_value": 1.5,
+      "repair_value": 0.80,
+      "harvest_level": 7.0,
+      "harvest_speed": 47.0,
+      "melee_damage": 19.0,
+      "magic_damage": 11.0,
+      "attack_speed": 0.12,
+      "ranged_damage": 5.2,
+      "ranged_speed": 0.15,
+      "projectile_speed": 2.0,
+      "projectile_accuracy": 2.0,
+      "armor": 50.0,
+      "armor/helmet": 10.0,
+      "armor/chestplate": 16.0,
+      "armor/leggings": 14.0,
+      "armor/boots": 10.0,
+      "armor_toughness": 15.0,
+      "magic_armor": 50.0
+    },
+    "rod": {
+      "harvest_speed": {
+        "add": 6.0
+      },
+      "projectile_speed": {
+        "mul2": 1.5
+      }
+    },
+    "tip": {
+      "durability": {
+        "add": 762.0
+      },
+      "armor_durability": {
+        "add": 27.0
+      },
+      "harvest_speed": {
+        "add": 7.0
+      }
+    }
+  },
+  "traits": {
+    "main": [
+      {
+        "name": "silentgear:adamant",
+        "level": 2,
+        "conditions": [
+          {
+            "type": "silentgear:gear_type",
+            "gear_type": "armor"
+          }
+        ]
+      },      
+	  {
+        "name": "silentgear:cure_poison",
+        "level": 1,
+        "conditions": [
+          {
+            "type": "silentgear:gear_type",
+            "gear_type": "armor"
+          }
+        ]
+      },
+      {
+        "name": "silentgear:cure_wither",
+        "level": 1,
+        "conditions": [
+          {
+            "type": "silentgear:gear_type",
+            "gear_type": "armor"
+          }
+        ]
+      },
+	  {
+        "name": "silentgear:flame_ward",
+        "level": 1,
+        "conditions": [
+          {
+            "type": "silentgear:gear_type",
+            "gear_type": "armor"
+          }
+        ]
+      },
+      {
+        "name": "silentgear:indestructible",
+        "level": 1,
+        "conditions": [
+          {
+            "type": "silentgear:gear_type",
+            "gear_type": "tool"
+          }
+        ]
+      },
+      {
+        "name": "silentgear:synergistic",
+        "level": 3
+      },
+      {
+        "name": "silentgear:void_ward",
+        "level": 1,
+        "conditions": [
+          {
+            "type": "silentgear:gear_type",
+            "gear_type": "armor"
+          }
+        ]
+      }
+    ],
+    "rod": [
+      {
+        "name": "silentgear:indestructible",
+        "level": 1
+      },
+      {
+        "name": "silentgear:lustrous",
+        "level": 5
+      }
+    ],
+    "tip": [
+	  {
+        "name": "silentgear:hard",
+        "level": 5
+      },
+      {
+        "name": "silentgear:malleable",
+        "level": 5
+      }
+    ]
+  }
+}

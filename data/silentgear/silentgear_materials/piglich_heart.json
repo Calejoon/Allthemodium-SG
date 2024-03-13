@@ -1,0 +1,99 @@
+{
+  "type": "silentgear:standard",
+  "simple": true,
+  "availability": {
+    "tier": 1,
+    "categories": [
+      "organic"
+    ],
+    "visible": true,
+    "gear_blacklist": [],
+    "can_salvage": true
+  },
+  "crafting_items": {
+    "main": {
+      "tag": "forge:piglich_heart"
+    }
+  },
+  "name": {
+    "translate": "Piglich Heart"
+  },
+  "stats": {
+    "coating": {
+      "durability": [
+        {
+          "mul2": 0.62
+        },
+        {
+          "add": 2.0
+        }
+      ],
+      "armor_durability": {
+        "mul2": 0.16
+      },
+      "harvest_speed": {
+        "mul2": 0.15
+      },
+      "harvest_level": {
+        "max": 6.0
+      },
+      "attack_speed": {
+        "mul2": 0.16
+      },
+      "melee_damage": {
+        "mul2": 0.36
+      },
+      "magic_damage": {
+        "mul2": 0.36
+      },
+      "ranged_damage": {
+        "mul2": 0.36
+      },
+      "armor_toughness": {
+        "add": 7.0
+      },
+      "knockback_resistance": {
+        "add": 2.0
+      },
+      "enchantment_value": {
+        "add": 7.0
+      }
+    },
+    "grip": {
+      "repair_efficiency": {
+        "mul1": 0.1
+      },
+      "harvest_speed": {
+        "mul1": 0.20
+      },
+      "attack_speed": {
+        "add": 0.20
+      }
+    },
+    "lining": {}
+  },
+  "traits": {
+	"coating": [
+      {
+        "name": "silentgear:brilliant",
+        "level": 1
+      },	  
+      {
+        "name": "silentgear:flexible",
+        "level": 5
+      }
+    ],
+	"grip": [
+      {
+        "name": "silentgear:flexible",
+        "level": 4
+      }
+    ],
+    "lining": [
+      {
+        "name": "silentgear:flexible",
+        "level": 4
+      }
+    ]
+  }
+}
